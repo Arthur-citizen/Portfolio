@@ -8,7 +8,9 @@ async function loadActivities() {
 
   const response = await fetch('/data/activities.json');
   if (!response.ok) {
-    throw new Error(`Failed to load activities: ${response.status}`);
+    throw new Error(
+      `Failed to load activities: ${response.status} ${response.statusText}`
+    );
   }
   const activities = await response.json();
 
@@ -43,5 +45,10 @@ async function loadActivities() {
 }
 
 loadActivities().catch((error) => {
+  const body = document.getElementById('activities-body');
+  if (body) {
+    body.innerHTML =
+      '<tr><td colspan="3">Unable to load activities data right now.</td></tr>';
+  }
   console.error('Could not load activities:', error);
 });
