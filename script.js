@@ -7,18 +7,22 @@ async function loadActivities() {
   }
 
   const response = await fetch('/data/activities.json');
+  if (!response.ok) {
+    throw new Error(`Failed to load activities: ${response.status}`);
+  }
   const activities = await response.json();
 
   let totalHours = 0;
 
   activities.forEach((activity) => {
+    const hours = Number(activity.hours) || 0;
     const row = document.createElement('tr');
 
     const activityCell = document.createElement('td');
     activityCell.textContent = activity.name;
 
     const hoursCell = document.createElement('td');
-    hoursCell.textContent = String(activity.hours);
+    hoursCell.textContent = String(hours);
 
     const proofCell = document.createElement('td');
     const image = document.createElement('img');
@@ -32,7 +36,7 @@ async function loadActivities() {
     row.appendChild(proofCell);
     body.appendChild(row);
 
-    totalHours += Number(activity.hours) || 0;
+    totalHours += hours;
   });
 
   totalHoursCell.textContent = String(totalHours);
