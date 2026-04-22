@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Web Development Workshop",
+    "hours": 8,
+    "proofImage": "/assets/images/workshop.svg",
+    "proofAlt": "Certificate proof for web development workshop"
+  },
+  {
+    "name": "Community Tech Volunteering",
+    "hours": 6,
+    "proofImage": "/assets/images/volunteering.svg",
+    "proofAlt": "Photo proof from community volunteering"
+  },
+  {
+    "name": "Online JavaScript Course",
+    "hours": 12,
+    "proofImage": "/assets/images/course.svg",
+    "proofAlt": "Course completion badge screenshot"
+  }
+]

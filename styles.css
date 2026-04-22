@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+  color: #222;
+}
+
+header {
+  background: #1f3b73;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a[aria-current='page'] {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  width: min(900px, 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #e1e3ea;
+  padding: 0.75rem;
+}
+
+tfoot th {
+  border-top: 2px solid #adb3c4;
+}
+
+.proof-image {
+  width: 96px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #d4d8e5;
+}
