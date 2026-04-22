@@ -8,20 +8,30 @@ async function loadActivities() {
 
   const response = await fetch('/data/activities.json');
   if (!response.ok) {
-    throw new Error(
-      `Failed to load activities: ${response.status} ${response.statusText}`
+    console.error(
+      `Activities request failed: ${response.status} ${response.statusText}`
     );
+    throw new Error('Failed to load activities data.');
   }
   const activities = await response.json();
 
   let totalHours = 0;
 
   activities.forEach((activity) => {
+    const name =
+      typeof activity.name === 'string' && activity.name.trim()
+        ? activity.name.trim()
+        : 'Unnamed activity';
     const hours = Number(activity.hours) || 0;
+    const proofImage =
+      typeof activity.proofImage === 'string' &&
+      activity.proofImage.startsWith('/assets/images/')
+        ? activity.proofImage
+        : '/assets/images/workshop.svg';
     const row = document.createElement('tr');
 
     const activityCell = document.createElement('td');
-    activityCell.textContent = activity.name;
+    activityCell.textContent = name;
 
     const hoursCell = document.createElement('td');
     hoursCell.textContent = String(hours);
@@ -29,8 +39,8 @@ async function loadActivities() {
     const proofCell = document.createElement('td');
     const image = document.createElement('img');
     image.className = 'proof-image';
-    image.src = activity.proofImage;
-    image.alt = activity.proofAlt || `Proof for ${activity.name}`;
+    image.src = proofImage;
+    image.alt = activity.proofAlt || `Proof for ${name}`;
     proofCell.appendChild(image);
 
     row.appendChild(activityCell);
