@@ -1,20 +1,26 @@
 [
   {
     "name": "Web Development Workshop",
+    "category": "Reseau",
+    "description": "Participation a un atelier pratique sur la creation d'applications web, avec mise en place d'une petite architecture client-serveur et revision des bonnes pratiques de communication entre services.",
     "hours": 8,
-    "proofImage": "/assets/images/workshop.svg",
+    "proofImage": "./assets/images/workshop.svg",
     "proofAlt": "Certificate proof for web development workshop"
   },
   {
     "name": "Community Tech Volunteering",
+    "category": "Cybersecurite",
+    "description": "Accompagnement d'un groupe local pour sensibiliser aux risques numeriques: mots de passe solides, phishing, et securisation de comptes personnels.",
     "hours": 6,
-    "proofImage": "/assets/images/volunteering.svg",
+    "proofImage": "./assets/images/volunteering.svg",
     "proofAlt": "Photo proof from community volunteering"
   },
   {
     "name": "Online JavaScript Course",
+    "category": "Reseau",
+    "description": "Suivi d'un cours en ligne avec exercices corriges sur JavaScript, la manipulation du DOM et l'organisation de code pour des projets plus robustes.",
     "hours": 12,
-    "proofImage": "/assets/images/course.svg",
+    "proofImage": "./assets/images/course.svg",
     "proofAlt": "Course completion badge screenshot"
   }
 ]

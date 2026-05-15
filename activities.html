@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activities Proof</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/index.html">Presentation</a>
-        <a href="/activities.html" aria-current="page">Activities</a>
+        <a href="./index.html">Presentation</a>
+        <a href="./activities.html" aria-current="page">Activities</a>
       </nav>
     </header>
 
@@ -23,6 +23,7 @@
               <th>Activity</th>
               <th>Hours</th>
               <th>Proof</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody id="activities-body"></tbody>
@@ -31,12 +32,35 @@
               <th scope="row">Total</th>
               <th id="total-hours">0</th>
               <th></th>
+              <th></th>
             </tr>
           </tfoot>
         </table>
       </section>
+
+      <div id="activity-detail-overlay" class="detail-overlay" hidden>
+        <section
+          class="detail-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="detail-title"
+        >
+          <button id="detail-close" class="detail-close" type="button" aria-label="Fermer les details">
+            Fermer
+          </button>
+          <div class="detail-content">
+            <img id="detail-image" class="detail-image" src="" alt="" />
+            <div class="detail-text">
+              <p id="detail-category" class="detail-category"></p>
+              <h2 id="detail-title">Activity details</h2>
+              <p id="detail-hours" class="detail-hours"></p>
+              <p id="detail-description" class="detail-description"></p>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
