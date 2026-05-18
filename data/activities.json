@@ -1,26 +1,75 @@
 [
   {
-    "name": "Web Development Workshop",
+    "name": "Préparation au stage en entreprise",
     "category": "Reseau",
-    "description": "Participation a un atelier pratique sur la creation d'applications web, avec mise en place d'une petite architecture client-serveur et revision des bonnes pratiques de communication entre services.",
-    "hours": 8,
+    "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
+    "hours": 10,
+    "hoursSpend": 30,  
     "proofImage": "./assets/images/workshop.svg",
-    "proofAlt": "Certificate proof for web development workshop"
+    "proofAlt": "preuve de participation à l'atelier de préparation au stage en entreprise",
+    "images": []
   },
   {
-    "name": "Community Tech Volunteering",
+    "name": "Hackathon 2024",
+    "category": "Développement",
+    "description": "Participation à un hackathon de 24 heures organisé par l'école, où j'ai travaillé en équipe pour développer un site web permettant de partager les livres de des utilisateurs plus facilement.",
+    "hours": 10,
+    "hoursSpend": 44, 
+    "proofImage": "./assets/images/présentation hack-a-ton 2024.jpg",
+    "proofAlt": "Preuve de participation au Hackathon 2024",
+    "images": []
+  },
+  {
+    "name": "CTF Cybersecurity Challenge BE 2024",
     "category": "Cybersecurite",
-    "description": "Accompagnement d'un groupe local pour sensibiliser aux risques numeriques: mots de passe solides, phishing, et securisation de comptes personnels.",
-    "hours": 6,
-    "proofImage": "./assets/images/volunteering.svg",
-    "proofAlt": "Photo proof from community volunteering"
+    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "hours": 5,
+    "hoursSpend": 24, 
+    "proofImage": "./assets/images/webinar.svg",
+    "proofAlt": "Preuve de participation au CSCBE 2024",
+    "images": []
   },
   {
-    "name": "Online JavaScript Course",
-    "category": "Reseau",
-    "description": "Suivi d'un cours en ligne avec exercices corriges sur JavaScript, la manipulation du DOM et l'organisation de code pour des projets plus robustes.",
-    "hours": 12,
-    "proofImage": "./assets/images/course.svg",
-    "proofAlt": "Course completion badge screenshot"
+    "name": "CTF Cybersecurity Challenge BE 2025",
+    "category": "Cybersecurite",
+    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "hours": 5,
+    "hoursSpend": 24, 
+    "proofImage": "./assets/images/email cscbe 2025.jpg",
+    "proofAlt": "Preuve de participation au CSCBE 2025",
+    "images": []
+  },
+  {
+    "name": "CTF Cybersecurity Challenge BE 2026",
+    "category": "Cybersecurite",
+    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "hours": 0,
+    "hoursSpend": 36, 
+    "proofImage": "./assets/images/webinar.svg",
+    "proofAlt": "Preuve de participation au CSCBE 2026",
+    "images": []
+  },
+  {
+    "name": "CTF Cybersecurity Challenge BE 2026",
+    "category": "Cybersecurite",
+    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "hours": 0,
+    "hoursSpend": 36, 
+    "proofImage": "./assets/images/webinar.svg",
+    "proofAlt": "Preuve de participation au CSCBE 2026",
+    "images": []
+  },
+  {
+    "name": "Let's fix IT 2025",
+    "category": "Électronique",
+    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le cycle de vie d'un appareil électronique.",
+    "hours": 2.5,
+    "hoursSpend": "2h30", 
+    "proofImage": "./assets/images/lets fix IT 2025-1.png",
+    "proofAlt": "Preuve de participation au Let's fix IT 2025",
+    "images": [
+      { "src": "./assets/images/lets fix IT 2025-1.png", "alt": "Description photo 1" },
+      { "src": "./assets/images/lets fix IT 2025-2.png", "alt": "Description photo 2" }
+    ]
   }
 ]

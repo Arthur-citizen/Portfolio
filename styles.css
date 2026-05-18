@@ -1,17 +1,80 @@
+/* Light theme tokens shared across the site. */
 :root {
   color-scheme: light;
   font-family: Arial, Helvetica, sans-serif;
+  --bg-page: #f4f6fb;
+  --text-main: #222;
+  --header-bg: #1d76b9;
+  --nav-link: #fff;
+  --card-bg: #fff;
+  --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --line-color: #e1e3ea;
+  --footer-bg: #0f2744;
+  --footer-text: #e8f1ff;
+  --footer-link: #9ed4ff;
+  --accent: #1d76b9;
+  --accent-hover: #155f95;
+  --icon-border: rgba(158, 212, 255, 0.45);
+  --icon-hover-bg: rgba(158, 212, 255, 0.15);
+  --icon-hover-border: rgba(158, 212, 255, 0.75);
 }
 
+/* Dark theme overrides activated via data-theme on <html>. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg-page: #11161d;
+  --text-main: #e8edf5;
+  --header-bg: #142638;
+  --nav-link: #e8edf5;
+  --card-bg: #1a232e;
+  --card-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  --line-color: #324050;
+  --footer-bg: #0d1622;
+  --footer-text: #d9e6f5;
+  --footer-link: #9ed4ff;
+  --accent: #4f95d4;
+  --accent-hover: #6aa8df;
+  --icon-border: rgba(158, 212, 255, 0.5);
+  --icon-hover-bg: rgba(158, 212, 255, 0.2);
+  --icon-hover-border: rgba(158, 212, 255, 0.85);
+}
+
+/* Sticky footer layout: body is a full-height column. */
 body {
   margin: 0;
-  background: #f4f6fb;
-  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-page);
+  color: var(--text-main);
 }
 
-header {
-  background: #1d76b9;
+/* Header with brand on the left and controls on the right. */
+.site-header {
+  background: var(--header-bg);
   padding: 1rem;
+}
+
+.header-inner {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-owner {
+  margin: 0;
+  color: var(--nav-link);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 nav {
@@ -20,7 +83,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: var(--nav-link);
   text-decoration: none;
   font-weight: 600;
 }
@@ -29,20 +92,127 @@ nav a[aria-current='page'] {
   text-decoration: underline;
 }
 
+.theme-toggle {
+  width: 2.35rem;
+  height: 2.35rem;
+  border: 1px solid var(--icon-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--footer-link);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  transform: translateY(-1px);
+  background: var(--icon-hover-bg);
+  border-color: var(--icon-hover-border);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--footer-link);
+  outline-offset: 2px;
+}
+
+.theme-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
+.theme-icon[hidden] {
+  display: none !important;
+}
+
+/* Main content takes remaining space so footer stays at page bottom. */
 main {
+  flex: 1;
   padding: 2rem;
   display: flex;
   justify-content: center;
 }
 
+/* Footer block with name + social links. */
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.footer-content {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-name {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--icon-border);
+  color: var(--footer-link);
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.social-link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  background: var(--icon-hover-bg);
+  border-color: var(--icon-hover-border);
+  transform: translateY(-1px);
+}
+
+.social-link:focus-visible {
+  outline: 2px solid var(--footer-link);
+  outline-offset: 2px;
+}
+
 .card {
-  background: #fff;
+  background: var(--card-bg);
   width: min(900px, 100%);
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--card-shadow);
 }
 
+/* Visual spacing between sections on the home page card. */
+.home-section + .home-section {
+  margin-top: 1.2rem;
+}
+
+/* Activities table styles. */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -51,7 +221,7 @@ table {
 th,
 td {
   text-align: left;
-  border-bottom: 1px solid #e1e3ea;
+  border-bottom: 1px solid var(--line-color);
   padding: 0.75rem;
 }
 
@@ -82,16 +252,17 @@ tfoot th {
   border: 0;
   border-radius: 8px;
   padding: 0.45rem 0.75rem;
-  background: #1d76b9;
+  background: var(--accent);
   color: #fff;
   font-weight: 600;
   cursor: pointer;
 }
 
 .details-button:hover {
-  background: #155f95;
+  background: var(--accent-hover);
 }
 
+/* Centered modal overlay for activity details. */
 .detail-overlay {
   position: fixed;
   inset: 0;
@@ -108,8 +279,10 @@ tfoot th {
 }
 
 .detail-panel {
-  background: #fff;
-  width: min(900px, 100%);
+  background: var(--card-bg);
+  width: min(650px, 100%);
+  max-height: 80vh;
+  overflow-y: auto;
   border-radius: 14px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
   padding: 1rem;
@@ -129,9 +302,15 @@ tfoot th {
 
 .detail-content {
   margin-top: 0.8rem;
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.detail-images {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
 }
 
 .detail-image {
@@ -140,6 +319,59 @@ tfoot th {
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid #d4d8e5;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.detail-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Fullscreen image viewer overlay. */
+.image-viewer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 300;
+}
+
+.image-viewer-overlay[hidden] {
+  display: none;
+}
+
+.image-viewer-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease;
+  z-index: 301;
+}
+
+.image-viewer-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.image-viewer-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .detail-category {
@@ -160,7 +392,58 @@ tfoot th {
   line-height: 1.45;
 }
 
+/* CV PDF viewer area. */
+.cv-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cv-card h1,
+.cv-card p {
+  margin: 0;
+}
+
+.cv-viewer {
+  border: 1px solid var(--line-color);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--card-bg);
+}
+
+.cv-frame {
+  width: 100%;
+  height: 80vh;
+  min-height: 560px;
+  border: 0;
+}
+
+.cv-download a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Mobile adjustments for layout and readability. */
 @media (max-width: 700px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.6rem;
+  }
+
+  .site-owner {
+    text-align: center;
+  }
+
+  .header-right {
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
   main {
     padding: 1rem;
   }
@@ -170,11 +453,25 @@ tfoot th {
     padding: 0.55rem;
   }
 
+  .site-footer {
+    padding: 1rem;
+  }
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
   .detail-content {
     grid-template-columns: 1fr;
   }
 
   .actions-cell {
     text-align: left;
+  }
+
+  .cv-frame {
+    height: 70vh;
+    min-height: 420px;
   }
 }
