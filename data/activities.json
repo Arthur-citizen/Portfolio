@@ -101,13 +101,14 @@
   {
     "name": "Club d'Ultimate Frisbee",
     "category": "Soft skills",
-    "description": "Le club d'Ultimate Frisbee de l'école, où j'ai participé à des entraînements hebdomadaires et à des compétitions interuniversitaires. Ce sport m'a permis de développer des compétences en travail d'équipe, en communication, en gestion du stress et à me blésser plusieurs fois. J'ai participé à plusieurs compétitions la première compétion à eu lieu en France et était très chouette même si nous n'avons pas gagné.",
+    "description": "Le club d'Ultimate Frisbee de l'école, où j'ai participé à des entraînements hebdomadaires et à des compétitions interuniversitaires. Ce sport m'a permis de développer des compétences en travail d'équipe, en communication, en gestion du stress et à me blésser plusieurs fois. J'ai participé à plusieurs compétitions la première compétion à eu lieu en France et était très chouette même si nous n'avons pas gagné.  https://www.facebook.com/story.php?story_fbid=1500662905184592&id=100057226909351&_rdr",
     "hours": 10,
     "hoursSpend": 200, 
     "proofImage": "./assets/images/preuve frisbee odt.jpg",
     "proofAlt": "Preuve de participation au club d'Ultimate Frisbee",
     "images": [
-      { "src": "./assets/images/preuve frisbee odt.jpg", "alt": "photo d'une participation à une compétition d'Ultimate Frisbee" }
+      { "src": "./assets/images/preuve frisbee odt.jpg", "alt": "photo de ma participation à l'ODT" },
+      { "src": "./assets/images/preuve frisbee aseus.jpg", "alt": "photo d'une participation à la comptétition de l'ASEUS" }
     ]
   }
 ]
