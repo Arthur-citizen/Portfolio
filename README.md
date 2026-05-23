@@ -1,6 +1,6 @@
 # Portfolio
 
-Simple two-page portfolio website:
+https://arthur-citizen.github.io/Portfolio/
 
 - **Presentation page**: `./index.html`
 - **Activities page**: `./activities.html`
