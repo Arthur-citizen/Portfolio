@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160" role="img" aria-label="Course proof image">
-  <rect width="240" height="160" fill="#fff5d9" />
-  <rect x="24" y="24" width="192" height="112" rx="10" fill="#fff" stroke="#d8bd72" />
-  <text x="120" y="76" text-anchor="middle" fill="#8a6b22" font-size="18" font-family="Arial">Course</text>
-  <text x="120" y="100" text-anchor="middle" fill="#8a6b22" font-size="14" font-family="Arial">Proof</text>
-</svg>

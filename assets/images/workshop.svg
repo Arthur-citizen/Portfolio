@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160" role="img" aria-label="Workshop proof image">
-  <rect width="240" height="160" fill="#dff3ff" />
-  <rect x="24" y="24" width="192" height="112" rx="10" fill="#fff" stroke="#87b9d8" />
-  <text x="120" y="76" text-anchor="middle" fill="#1f3b73" font-size="18" font-family="Arial">Workshop</text>
-  <text x="120" y="100" text-anchor="middle" fill="#1f3b73" font-size="14" font-family="Arial">Proof</text>
-</svg>

@@ -9,7 +9,7 @@
   --card-bg: #fff;
   --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   --line-color: #e1e3ea;
-  --footer-bg: #0f2744;
+  --footer-bg: #1d76b9;
   --footer-text: #e8f1ff;
   --footer-link: #9ed4ff;
   --accent: #1d76b9;
@@ -122,7 +122,8 @@ nav a[aria-current='page'] {
 .theme-icon {
   width: 1.2rem;
   height: 1.2rem;
-  fill: currentColor;
+  display: block;
+  object-fit: contain;
 }
 
 .theme-icon[hidden] {

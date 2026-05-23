@@ -1,11 +1,21 @@
 [
   {
     "name": "Préparation au stage en entreprise",
-    "category": "Reseau",
+    "category": "Gestion de projet",
     "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
     "hours": 10,
-    "hoursSpend": 30,  
-    "proofImage": "./assets/images/workshop.svg",
+    "hoursSpend": 40,
+    "proofImage": "./assets/images/preuve vroman semaine prépa au stage.png",
+    "proofAlt": "preuve de participation à l'atelier de préparation au stage en entreprise",
+    "images": []
+  },
+  {
+    "name": "Préparation au stage en entreprise",
+    "category": "Infrastructure et administration réseau",
+    "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
+    "hours": 10,
+    "hoursSpend": 40,  
+    "proofImage": "./assets/images/preuve vroman semaine prépa au stage.png",
     "proofAlt": "preuve de participation à l'atelier de préparation au stage en entreprise",
     "images": []
   },
@@ -25,7 +35,7 @@
     "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
     "hours": 5,
     "hoursSpend": 24, 
-    "proofImage": "./assets/images/webinar.svg",
+    "proofImage": "./assets/images/preuve cscbe.png",
     "proofAlt": "Preuve de participation au CSCBE 2024",
     "images": []
   },
@@ -35,9 +45,12 @@
     "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
     "hours": 5,
     "hoursSpend": 24, 
-    "proofImage": "./assets/images/email cscbe 2025.jpg",
+    "proofImage": "./assets/images/email cscbe 2025.png",
     "proofAlt": "Preuve de participation au CSCBE 2025",
-    "images": []
+    "images": [
+      { "src": "./assets/images/email cscbe 2025.png", "alt": "email de confirmation de participation au CSCBE 2025" },
+      { "src": "./assets/images/preuve cscbe.png", "alt": "screenshot de rôle Discord montrant la participation au CSCBE 2025" }
+    ]
   },
   {
     "name": "CTF Cybersecurity Challenge BE 2026",
@@ -45,18 +58,8 @@
     "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
     "hours": 0,
     "hoursSpend": 36, 
-    "proofImage": "./assets/images/webinar.svg",
-    "proofAlt": "Preuve de participation au CSCBE 2026",
-    "images": []
-  },
-  {
-    "name": "CTF Cybersecurity Challenge BE 2026",
-    "category": "Cybersecurite",
-    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
-    "hours": 0,
-    "hoursSpend": 36, 
-    "proofImage": "./assets/images/webinar.svg",
-    "proofAlt": "Preuve de participation au CSCBE 2026",
+    "proofImage": "./assets/images/preuve cscbe.png",
+    "proofAlt": "screenshot de rôle Discord montrant la participation au CSCBE 2026",
     "images": []
   },
   {
@@ -68,8 +71,43 @@
     "proofImage": "./assets/images/lets fix IT 2025-1.png",
     "proofAlt": "Preuve de participation au Let's fix IT 2025",
     "images": [
-      { "src": "./assets/images/lets fix IT 2025-1.png", "alt": "Description photo 1" },
-      { "src": "./assets/images/lets fix IT 2025-2.png", "alt": "Description photo 2" }
+      { "src": "./assets/images/lets fix IT 2025-1.png", "alt": "scan recto du document à remplir lors de la participation au Let's fix IT 2025" },
+      { "src": "./assets/images/lets fix IT 2025-2.png", "alt": "scan verso du document à remplir lors de la participation au Let's fix IT 2025" }
+    ]
+  },
+  {
+    "name": "Let's fix IT 2026",
+    "category": "Électronique",
+    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le cycle de vie d'un appareil électronique.",
+    "hours": 2.5,
+    "hoursSpend": "2h30", 
+    "proofImage": "./assets/images/lets fix IT 2026-1.png",
+    "proofAlt": "Preuve de participation au Let's fix IT 2026",
+    "images": [
+      { "src": "./assets/images/lets fix IT 2026-1.png", "alt": "scan recto du document à remplir lors de la participation au Let's fix IT 2026" },
+      { "src": "./assets/images/lets fix IT 2026-2.png", "alt": "scan verso du document à remplir lors de la participation au Let's fix IT 2026" }
+    ]
+  },
+  {
+    "name": "stage d'observation en entreprise",
+    "category": "Reseau",
+    "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
+    "hours": 10,
+    "hoursSpend": 30,  
+    "proofImage": "./assets/images/preuve vroman semaine prépa au stage.png",
+    "proofAlt": "preuve de participation à l'atelier de préparation au stage en entreprise",
+    "images": []
+  },
+  {
+    "name": "Club d'Ultimate Frisbee",
+    "category": "Soft skills",
+    "description": "Le club d'Ultimate Frisbee de l'école, où j'ai participé à des entraînements hebdomadaires et à des compétitions interuniversitaires. Ce sport m'a permis de développer des compétences en travail d'équipe, en communication, en gestion du stress et à me blésser plusieurs fois. J'ai participé à plusieurs compétitions la première compétion à eu lieu en France et était très chouette même si nous n'avons pas gagné.",
+    "hours": 10,
+    "hoursSpend": 200, 
+    "proofImage": "./assets/images/preuve frisbee odt.jpg",
+    "proofAlt": "Preuve de participation au club d'Ultimate Frisbee",
+    "images": [
+      { "src": "./assets/images/preuve frisbee odt.jpg", "alt": "photo d'une participation à une compétition d'Ultimate Frisbee" }
     ]
   }
 ]
