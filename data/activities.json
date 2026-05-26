@@ -13,16 +13,26 @@
     "name": "Préparation au stage en entreprise",
     "category": "Infrastructure et administration réseau",
     "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
-    "hours": 10,
+    "hours": 0,
     "hoursSpend": 40,  
     "proofImage": "./assets/images/preuve vroman semaine prépa au stage.png",
     "proofAlt": "preuve de participation à l'atelier de préparation au stage en entreprise",
     "images": []
   },
   {
+    "name": "stage en entreprise chez Koesio",
+    "category": "Infrastructure et administration réseau",
+    "description": "J'ai fais un stage d'observation de 2 jours chez Koesio, une entreprise, j'ai pu y observer le travail d'une équipe IT faisant du support informatique et de la gestion et création de parc informatique. J'ai pu voir leur façon de travailler, les outils qu'ils utilisent et les compétences nécessaires pour travailler dans ce domaine. J'ai aussi pu assister à une réunion pour choisir la liste du matériel à changer chez un client. Ce stage à été très enrichissant et je me suis amélioré au babyfoot.",
+    "hours": 10,
+    "hoursSpend": 16,  
+    "proofImage": "./assets/images/preuve koesio.png",
+    "proofAlt": "preuve de participation à un stage d'observation en entreprise chez Koesio",
+    "images": []
+  },
+  {
     "name": "Hackathon 2024",
     "category": "Développement",
-    "description": "Participation à un hackathon de 24 heures organisé par l'école, où j'ai travaillé en équipe pour développer un site web permettant de partager les livres de des utilisateurs plus facilement.",
+    "description": "Participation à un hackathon de 24 heures organisé par l'école, où j'ai travaillé en équipe pour développer un site web permettant de partager les livres de des utilisateurs plus facilement. J'ai adoré cette expérience, cela m'a permis d'affirmer mon choix dans mes études après mon changement de course et de découvrir le travail en équipe dans un contexte de développement. Grâce à ce hackathonn j'ai pu faire connaisance avec d'autre étudiants des années supérieures et j'ai pu voir les matières à connaître pour les années suivantes, j'ai appris à utiliser GitHub lors de cehackathon et cela m'a beaucoup aidé par la suite.",
     "hours": 10,
     "hoursSpend": 44, 
     "proofImage": "./assets/images/présentation hack-a-ton 2024.jpg",
@@ -32,7 +42,7 @@
   {
     "name": "CTF Cybersecurity Challenge BE 2024",
     "category": "Cybersecurite",
-    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "description": "J'ai participé au CTF pour étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc. J'ai appris énormément de chose pendant ce CTF malgré le fait que je n'ai pas réussi beaucoup d'épreuves, j'y ai découvert un goût pour la cybersécurité.",
     "hours": 5,
     "hoursSpend": 24, 
     "proofImage": "./assets/images/preuve cscbe.png",
@@ -42,8 +52,8 @@
   {
     "name": "CTF Cybersecurity Challenge BE 2025",
     "category": "Cybersecurite",
-    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
-    "hours": 5,
+    "description": "J'ai participé au CTF pour étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc. Je me suis amélioré par rapport à l'année précédente, J'ai réussi plus d'épreuves et j'ai découvert de nouvelles techniques d'exploitation et de déchiffrement.",
+    "hours": 4,
     "hoursSpend": 24, 
     "proofImage": "./assets/images/email cscbe 2025.png",
     "proofAlt": "Preuve de participation au CSCBE 2025",
@@ -55,7 +65,7 @@
   {
     "name": "CTF Cybersecurity Challenge BE 2026",
     "category": "Cybersecurite",
-    "description": "Participation au CTF étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc.",
+    "description": "J'ai participé au CTF pour étudiant organisé par la défense et une bonne partie des entreprises de cybersécurité du pays, avec des épreuves de reverse engineering, exploitation de vulnérabilités et cryptographie, etc. Je me suis encore amélioré par rapport à l'année précédente mais je ne me suis maleuhreusment pas qualifié pour la finale.",
     "hours": 0,
     "hoursSpend": 36, 
     "proofImage": "./assets/images/preuve cscbe.png",
@@ -63,9 +73,19 @@
     "images": []
   },
   {
+    "name": "Présentation de RedSystem",
+    "category": "Cybersecurite",
+    "description": "J'ai assysté à une présentation de RedSystème, une entreprise de cybersécurité spécialisée dans la sécurité offensive. Ils ont présenté leur travail et les différents métiers de la cybersécurité, ainsi que les compétences nécessaires pour travailler dans ce domaine. J'y ai appris un côté plus pratique de la cybersécurité, avec des méthodes d'attaque et des anecdotes de leur travail. C'était très intéressant et m'a aidé à confirmer mon envie de travailler dans la cybersécurité offensive.",
+    "hours": 1,
+    "hoursSpend": 1, 
+    "proofImage": "./assets/images/réu red system.png",
+    "proofAlt": "screenshot de rôle Discord montrant la participation au CSCBE 2026",
+    "images": []
+  },
+  {
     "name": "Let's fix IT 2025",
     "category": "Électronique",
-    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le cycle de vie d'un appareil électronique.",
+    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le cycle de vie d'un appareil électronique. et le démontage d'un iphone pour voir les différentes pièces qui le composent.",
     "hours": 2.5,
     "hoursSpend": "2h30", 
     "proofImage": "./assets/images/lets fix IT 2025-1.png",
@@ -78,7 +98,7 @@
   {
     "name": "Let's fix IT 2026",
     "category": "Électronique",
-    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le cycle de vie d'un appareil électronique.",
+    "description": "Le Let's fix It est une soirée sur le thème de l'électronique. Plusieurs stands expliquent la vie d'un appareil électronique, d'autres proposent de réparer des objets comme des Fairphones. Le Louvain-Li-Nux, un kap (kot à projet) de Louvain-la-Neuve, expliquait ce qu'était Linux et comment le mettre sur sa machine. Je me suis baladé de stand en stand pour voir ce que chacun proposait. Ce qui m'a le plus interpellé, c'est le stand de thomas avec un baffle JBL complètement démonté pour montrer les différentes pièces qui le composent et le prototype qu'il a construit ainsi que le Fairephone que l'on pouvait monter sois même.",
     "hours": 2.5,
     "hoursSpend": "2h30", 
     "proofImage": "./assets/images/lets fix IT 2026-1.png",
@@ -90,7 +110,7 @@
   },
   {
     "name": "stage d'observation en entreprise",
-    "category": "Reseau",
+    "category": "Réseau",
     "description": "J'ai participer au stage de préparation au stage en entreprise organisé par l'école. Celui-ci n'était pas obligatoire dans mon cas car il dépendait des crédit du Q1 que j'ai remplacé par un Erasmus, mais j'ai décidé d'y participer pour mieux me préparer à mon stage de 3e année.",
     "hours": 10,
     "hoursSpend": 30,  
@@ -102,13 +122,26 @@
     "name": "Club d'Ultimate Frisbee",
     "category": "Soft skills",
     "description": "Le club d'Ultimate Frisbee de l'école, où j'ai participé à des entraînements hebdomadaires et à des compétitions interuniversitaires. Ce sport m'a permis de développer des compétences en travail d'équipe, en communication, en gestion du stress et à me blésser plusieurs fois. J'ai participé à plusieurs compétitions la première compétion à eu lieu en France et était très chouette même si nous n'avons pas gagné.  https://www.facebook.com/story.php?story_fbid=1500662905184592&id=100057226909351&_rdr",
-    "hours": 10,
+    "hours": 9,
     "hoursSpend": 200, 
     "proofImage": "./assets/images/preuve frisbee odt.jpg",
     "proofAlt": "Preuve de participation au club d'Ultimate Frisbee",
     "images": [
       { "src": "./assets/images/preuve frisbee odt.jpg", "alt": "photo de ma participation à l'ODT" },
       { "src": "./assets/images/preuve frisbee aseus.jpg", "alt": "photo d'une participation à la comptétition de l'ASEUS" }
+    ]
+  },
+  {
+    "name": "Obtention d'un permis moto code 372",
+    "category": "Soft skills",
+    "description": "J'ai obtenu un permis moto pour une moto de 125 cm³, en belgique, cela m'a permis d'obtenir une certaine autonomie de déplacement et d'apprendre à conduire une moto. Cela m'a permis d'apprendre à gérer le stress et à être plus attentif à mon environnement ainsi qu'apprendre à entretenir une moto, je dois bientôt démonter le maitre cylindre du frein arrière pour changer les joints.",
+    "hours": 1,
+    "hoursSpend": 4, 
+    "proofImage": "./assets/images/page_1.png",
+    "proofAlt": "Preuve de participation à l'obtention du permis moto code 372",
+    "images": [
+      { "src": "./assets/images/page_1.png", "alt": "contrat de formation recto" },
+      { "src": "./assets/images/page_2.png", "alt": "contrat de formation verso" }
     ]
   }
 ]

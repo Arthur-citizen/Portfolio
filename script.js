@@ -67,6 +67,7 @@ function initializeThemeToggle() {
 async function loadActivities() {
   const body = document.getElementById('activities-body');
   const totalHoursCell = document.getElementById('total-hours');
+  const totalHoursSpentCell = document.getElementById('total-hours-spent');
   const detailOverlay = document.getElementById('activity-detail-overlay');
   const detailCloseButton = document.getElementById('detail-close');
   const detailTitle = document.getElementById('detail-title');
@@ -134,7 +135,7 @@ async function loadActivities() {
     document.body.style.overflow = 'hidden';
   };
 
-  if (!body || !totalHoursCell) {
+  if (!body || !totalHoursCell || !totalHoursSpentCell) {
     return;
   }
 
@@ -189,6 +190,7 @@ async function loadActivities() {
   const activities = await response.json();
 
   let totalHours = 0;
+  let totalHoursSpent = 0;
   const groupedActivities = new Map();
 
   activities.forEach((activity) => {
@@ -237,6 +239,7 @@ async function loadActivities() {
     groupedActivities.get(category).push(normalizedActivity);
 
     totalHours += hours;
+    totalHoursSpent += normalizedHoursSpent;
   });
 
   groupedActivities.forEach((categoryActivities, categoryName) => {
@@ -289,7 +292,8 @@ async function loadActivities() {
     });
   });
 
-  totalHoursCell.textContent = String(totalHours);
+  totalHoursCell.textContent = String(totalHours) + " h";
+  totalHoursSpentCell.textContent = String(totalHoursSpent) + " h";
 }
 
 initializeThemeToggle();
